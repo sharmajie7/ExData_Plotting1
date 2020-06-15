@@ -10,9 +10,9 @@ date_time <- strptime(paste(subSetData$Date, subSetData$Time, sep=" "), "%d/%m/%
 globalActpwr <- as.numeric(subSetData$Global_active_power)
 globalReactpwr <- as.numeric(subSetData$Global_reactive_power)
 voltage <- as.numeric(subSetData$Voltage)
-subMetering1 <- as.numeric(subSetData$Sub_metering_1)
-subMetering2 <- as.numeric(subSetData$Sub_metering_2)
-subMetering3 <- as.numeric(subSetData$Sub_metering_3)
+subMeter1 <- as.numeric(subSetData$Sub_metering_1)
+subMeter2 <- as.numeric(subSetData$Sub_metering_2)
+subMeter3 <- as.numeric(subSetData$Sub_metering_3)
 
 
 png("plot4.png", width=480, height=480)
