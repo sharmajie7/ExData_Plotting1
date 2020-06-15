@@ -22,9 +22,9 @@ plot(date_time, globalActpwr, type="l", xlab="", ylab="Global Active Power", cex
 
 plot(date_time, voltage, type="l", xlab="datetime", ylab="Voltage")
 
-plot(datetime, subMeter1, type="l", ylab="Energy Submetering", xlab="")
-lines(datetime, subMeter2, type="l", col="red")
-lines(datetime, subMeter3, type="l", col="blue")
+plot(date_time, subMeter1, type="l", ylab="Energy Submetering", xlab="")
+lines(date_time, subMeter2, type="l", col="red")
+lines(date_time, subMeter3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=, lwd=2.5, col=c("black", "red", "blue"), bty="o")
 
 plot(date_time, globalReactpwr, type="l", xlab="datetime", ylab="Global_reactive_power")
